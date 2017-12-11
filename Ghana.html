@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="jquery.flip.min.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  	<style type="text/css">
+  		
+  		body {
+			background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kvZV2CqmCdMuoKkLXBw4n7gISy_PZLidfqS20ExhO3FmG69A1w');
+
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-position: top center !important;
+			background-repeat: no-repeat !important;
+			background-attachment: fixed;
+		}
+
+		h1 {
+			color: black;
+			font-family: 'Montserrat', sans-serif, arial;
+			font-size: 48px;
+			text-align: center;
+		}
+
+		.main {
+			text-align: center;
+		}
+
+		.flip {
+    		height: 199px;
+    		width: 300px;
+    		margin: 3px auto 3px auto;
+
+		}
+
+		.flip img {
+    		width: 300px;
+    		height: 200px;
+    		margin: 3px auto;
+
+
+		}
+
+		.flip .back {
+    		background: white;
+    		color: #fff;
+    		text-align: center;
+		}
+
+		h3.backText {
+			font-family: 'Raleway', arial;
+			color: black;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+			text-shadow: 0px 2px 3px black;
+		}
+
+		nav {
+			font-size: 16px;
+			font-family: 'Raleway', sans-serif, arial;
+			padding: 20px, 10px;
+			display: flex;
+			color: white;
+		}
+
+		ul {
+
+			list-style-type: none;
+
+		}
+
+		li {
+			display: inline;
+			padding: 20px;
+		}
+
+		.reg {
+			text-align: right;
+		}
+
+		.main .flip, .flipper {
+			display: inline-flex;
+		}
+
+		.media {
+			text-align: center;
+		}
+
+		.main .flipper {
+    		height: 199px;
+    		width: 300px;
+    		margin: 3px auto;
+    		display: inline-flex;
+		}
+
+
+  	</style>
+  	<!--JQuery FLIP LOGIC -->
+  	<script>
+		$(function(){
+    		$(".flip").flip({
+        		trigger: 'hover'
+    		});
+		});
+	</script>
+	<script>
+		 $(function(){
+    		$(".flipper").flip({
+        		trigger: ''
+    		});
+		});
+		
+	</script>
+    <meta charset="UTF-8">
+    <title>Ghana's Culture</title>
+  </head>
+  <body>
+	<div class='lockbar'>
+		<nav> 
+			<ul>
+				<li><a href='GalleryProject.html'>Home</a></li>
+				<li><a href='Jamaica.html'>Jamaica</a></li>
+				<li><a href='aboutMe.html'>Me</a></li>
+			</ul>
+		</nav>
+	</div>
+
+  <h1>Ghanaian Culture</h1>
+
+  <div class="main">
+		
+	<div class="flip"> 
+    	<div class="front"> 
+        	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ghana_Elmina_slave_castle.jpg/1024px-Ghana_Elmina_slave_castle.jpg" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">Ghana's Cape Coast Castle. Known as the "Port of No Return", it was used as a slave port until the early-19th century, when Britain banned the slave trade. The castle is a symbol of Ghanaian triumph and deeply-rooted in its history</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="ghanaPictures/IMG_0705_1.JPG" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">A Ghanaian vendor stand selling tradition clothing</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="https://1.bp.blogspot.com/-CHjmtEj8xmo/VtXmT6G2rkI/AAAAAAABkxo/I42OSQ8bAoc/s1600/DSC04766.jpg" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">Plaintains are a staple dish of many African nations, including Ghana</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Coat_of_arms_of_Ghana.svg/250px-Coat_of_arms_of_Ghana.svg.png" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">Ghanaian Coat of Arms</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="https://i.pinimg.com/736x/35/97/1e/35971e4d55b0a540fcd9254c0845d8ef--first-prime-minister-gold-coast.jpg" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">A quote from the late Kwame Nkrumah, the 1st Prime Minister and President of Ghana. An advocate for African unity, he was, and continues to be, a strong representation of Ghana's independance identity</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="https://africanmania.com/ghana/wp-content/uploads/2017/05/Accra-City-Ghana-Photo.jpg" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">The skyline of Accra, Ghana's capital city. My father grew up here until the age of 16, relocating to New Brunswick to continue his engineering studies</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="ghanaPictures/IMG_0704_1.jpg" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">Two young children on their way to school. Uniforms are a big part of the Ghanaian school system, representing pride and shared identity among students</h3>
+    	</div> 
+	</div>
+
+	<div class="flipper">
+		<div class="front"> 
+        	<video width="300" height="199" controls="controls">  
+    			<source src="ghanaPictures/IMG_0530.mp4" type="video/mp4" />
+    		</video>
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">A video of Indpendence Square, showing the Accra Sports Stadium, Black Star Gate, and the Kwame Nkrumah Memorial Park</h3>
+        </div>
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="ghanaPictures/IMG_0708_1.JPG" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">My father, Gabriel, in front of Independence Square in 2013. Independence has always been a cornerstone of Ghanaian identity, with the public monument representing strength and unity</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="https://2.bp.blogspot.com/-PQkqDUnO-vA/WAT7aVTfBNI/AAAAAAAAB9A/PiLWtaOncCcl4Q5L2aCVAxu5vP9uHya1wCLcB/s1600/Shots%2Bof%2BThe%2BAccra%2BAcademy%2BCampusf.jpg" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">The gates of Accra Academy, a boarding school in Ghana. My father attended the academy from 1969-1976</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="http://www.quotehd.com/imagequotes/authors1/maya-angelou-maya-angelou-while-the-rest-of-the-world-has-been.jpg" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">Yet another testament to Ghanaian identity, this time from American poet and civil rights activist, Maya Angelou. A quote that truly exemplifies the power of unity and strength to Ghana and its people</h3>
+    	</div> 
+	</div>
+
+	<div class="flip">
+		<div class="front"> 
+        	<img src="http://1.bp.blogspot.com/-rqaeIx9u06s/VN--2m2TrbI/AAAAAAAAAgc/GH7nYQrPf2k/s1600/learn_ga_from_accra.png" height="200" width="200" alt="" />
+    	</div> 
+    	<div class="back">
+        	<h3 class="backText">A poster showing how to speak Gs, the language of the capital city. I never personally learned how to speak it,  but many of my relatives, as well as my father, are fluent in Ga</h3>
+    	</div> 
+	</div>
+</div>
+
+		
+	<!--
+	<form action="/action_page.php" id="usrform">
+ 		 Name: <input type="text" name="usrname">
+  		<input type="submit">
+	</form>
+	<br>
+	<textarea rows="4" cols="50" name="comment" form="usrform">
+	Enter text here...</textarea>
+	-->!
+
+	<div class="media">
+		<iframe width="20%" height="150" scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258021633&amp;color=%2343332b&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+	</div>
+
+
+	<nav>
+		<ul class='socialBar'>
+			<a href="https://twitter.com/GalenHammond17"><li>Twitter</li></a>
+			<a href="https://www.instagram.com/galenhammond17/"><li>Instagram</li></a>
+			<a href="https://soundcloud.com/archie-golden"><li>Soundcloud</li></a>
+		</ul>
+	</nav>
+  </body>
+</html>

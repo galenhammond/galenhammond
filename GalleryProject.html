@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<style type="text/css">
+
+	/* CSS Scripts */
+		
+		a {
+			text-decoration: none;
+			color: white;
+			text-shadow: 0px 2px 3px black;
+		}
+
+
+		h1 {
+			color: black;
+			font-family: 'Montserrat', sans-serif, arial;
+			font-size: 48px;
+			text-align: center;
+		}
+
+		body {
+			background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kvZV2CqmCdMuoKkLXBw4n7gISy_PZLidfqS20ExhO3FmG69A1w');
+
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-position: top center !important;
+			background-repeat: no-repeat !important;
+			background-attachment: fixed;
+		}
+
+		nav {
+			font-size: 16px;
+			font-family: 'Raleway', sans-serif, arial;
+			padding: 20px, 10px;
+			display: flex;
+			color: white;
+		}
+	
+		.imgContainer {
+			display: flex;
+    		margin: auto;
+    		width: 40%;
+    		padding: 40px;
+		}
+
+		div.img {
+			text-align: center;
+		}
+
+		#imgCont {
+
+
+		}
+
+		.socialBar {
+
+			color: white;
+			text-shadow: 0px 2px 3px black;
+
+		}
+
+		ul {
+
+			list-style-type: none;
+
+		}
+
+		li {
+			display: inline;
+			padding: 20px;
+		}
+
+		ul.socialBar {
+			text-align: right;
+		}
+
+		/*.lockbar {
+
+			color: white;
+		} */
+
+	</style>
+
+
+	<!-- JQuery MouseOver Logic (NOTWORKING) -->
+	<script>
+		$(document).ready(function(){
+    $("#imgCont").mouseover(function(){
+        $("#imgCont").fadeOut("fast", 0.25);
+    });
+    $("#imgCont").mouseout(function(){
+        $("#imgCont").fadeIn("fast", 1);
+    });
+    }); 
+	</script>
+
+
+	<title>Galen's Art Gallery</title>
+
+</head>
+
+<!-- Main HTML Document -->
+
+<body>
+	<div class='lockbar'>
+	<nav> 
+		<ul>
+			<li><a href='Ghana.html'>Ghana</a></li>
+			<li><a href='Jamaica.html'>Jamaica</a></li>
+			<li><a href='aboutMe.html'>Me</a></li>
+		</ul>
+	</nav>
+</div>
+
+	<h1>Galen's Gallery</h1>
+
+<div class='img'>
+	
+	<a href='Ghana.html'>
+		<img class='imgContainerg' id='imgCont' src='https://static1.squarespace.com/static/55ef1bc1e4b0b341857b14f6/
+		t/585bc2776a496342e1a0bef6/1482408577186/' height='300' width='300' >
+	</a>
+	<a href='Jamaica.html'>
+		<img class='imgContainer' id='imgCont' src='https://butterflyexpressions.files.wordpress.com/2012/05/jamaica_flag_map.png' height='300' width='300'>
+	</a>
+	<a href='aboutMe.html'>
+		<img class='imgContainer' id='imgCont' src="https://openclipart.org/image/2400px/svg_to_png/281703/Melting-Pot.png" height='300' width='300'>
+	</a>
+
+</div>
+	<nav>
+		<ul class='socialBar'>
+			<a href="https://twitter.com/GalenHammond17"><li>Twitter</li></a>
+			<a href="https://www.instagram.com/galenhammond17/"><li>Instagram</li></a>
+			<a href="https://soundcloud.com/archie-golden"><li>Soundcloud</li></a>
+		</ul>
+	</nav>
+</body>
+
+</html>
+
+
+
